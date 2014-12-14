@@ -1,6 +1,24 @@
 LightShow
 =========
 
-Control LED lights over Bluetooth LE and an Arduino controller.  Meant to be used with the Light Show iOS app.
+This Arduino sketch can be used to control LEDs over Bluetooth LE.  It is designed to be used with the LightShow iOS app.
 
-Send the RGB color to the Arduino controller over Bluetooth LE.  The UART connection accepts 3 bytes at a time.  The first byte is the R component, the second byte is the G component, and the third byte is the B component.
+
+Analog RGB LED strips
+-----------
+Follow these [instructions](https://learn.adafruit.com/rgb-led-strips/overview) to connect an analog RGB LED strip to your Arduino controller.
+
+
+Bluetooth LE
+-----------
+
+Follow these [instructions](https://learn.adafruit.com/getting-started-with-the-nrf8001-bluefruit-le-breakout/introduction) to connect a Bluetooth LE breakout board to your Arduino controller.
+
+
+LightShow iOS App
+-----------
+Place the Adafruit_BLE_UART folder from this repository inside your Arduino libraries folder and restart the Arduino IDE.
+
+Upload the LightShowArduino.ino sketch to your Arduino.
+
+Install the [LightShow](https://www.apple.com/itunes/) app onto your iOS device.

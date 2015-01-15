@@ -1,7 +1,7 @@
 LightShow
 =========
 
-This Arduino sketch can be used to control LEDs over Bluetooth LE.  It is designed to be used with the LightShow iOS app.
+This Arduino sketch can be used to control LEDs over Bluetooth LE.  It is designed to be used with the [LightShow](https://itunes.apple.com/us/app/light-show-control-your-arduinos/id955092313?mt=8) iOS app.
 
 
 Analog RGB LED strips

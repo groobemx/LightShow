@@ -1,6 +1,8 @@
 /*********************************************************************
 
-This arduino sketch was modified by Huxley for use with the Light Show iOS app.
+This arduino sketch was modified by Kitefaster, LLC for use with the Light Show iOS app.
+
+Download Light Show at https://itunes.apple.com/us/app/light-show-control-your-arduinos/id955092313?mt=8
 
 /*********************************************************************
 This is an example for our nRF8001 Bluetooth Low Energy Breakout

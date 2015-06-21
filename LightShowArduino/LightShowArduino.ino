@@ -25,9 +25,12 @@ All text above, and the splash screen below must be included in any redistributi
 #include "Adafruit_BLE_UART.h"
 
 //Bluetooth
-#define ADAFRUITBLE_REQ 10
-#define ADAFRUITBLE_RDY 2
-#define ADAFRUITBLE_RST 9
+#define BLE_NRF8001_SCK 13
+#define BLE_NRF8001_MISO 12
+#define BLE_NRF8001_MOSI 11
+#define BLE_NRF8001_REQ 10
+#define BLE_NRF8001_RST 9
+#define BLE_NRF8001_RDY 2
 
 //LED Strip
 #define RED      3
@@ -36,7 +39,7 @@ All text above, and the splash screen below must be included in any redistributi
 
 int rgb[3];
 
-Adafruit_BLE_UART uart = Adafruit_BLE_UART(ADAFRUITBLE_REQ, ADAFRUITBLE_RDY, ADAFRUITBLE_RST);
+Adafruit_BLE_UART uart = Adafruit_BLE_UART(BLE_NRF8001_REQ, BLE_NRF8001_RDY, BLE_NRF8001_RST);
 
 /**************************************************************************/
 /*!

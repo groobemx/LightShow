@@ -73,7 +73,12 @@ void rxCallback(uint8_t *buffer, uint8_t len)
 {
   Serial.print(F("Received "));
   Serial.print(len);
-  Serial.println(F(" bytes: "));
+  Serial.print(F(" bytes: "));
+
+  for(int i=0; i<len; i++) {
+    Serial.print((char)buffer[i]);
+  }
+  Serial.print("\n");
   
   if(len == 3) {
     byte r = buffer[0];
@@ -90,9 +95,6 @@ void rxCallback(uint8_t *buffer, uint8_t len)
     Serial.print("B: ");
     Serial.println(b);
   } else {
-    for(int i=0; i<len; i++) {
-      Serial.print((char)buffer[i]);
-    }
     Serial.print(F(" ["));
   
     for(int i=0; i<len; i++) {
@@ -114,16 +116,39 @@ void setup(void)
 { 
   Serial.begin(9600);
   while(!Serial); // Leonardo/Micro should wait for serial init
-  Serial.println(F("Adafruit Bluefruit Low Energy nRF8001 Callback Echo demo"));
+  Serial.println(F("Light Show for Arduino, by Kitefaster"));
 
   uart.setRXcallback(rxCallback);
   uart.setACIcallback(aciCallback);
   uart.setDeviceName("HSlight"); /* 7 characters max! */
   uart.begin();
+
+  //RED
+  rgb[0] = 255;
+  rgb[1] = 0;
+  rgb[2] = 0;
+  writeColor();
+  delay(500);
   
+  //GREEN
+  rgb[0] = 0;
+  rgb[1] = 255;
+  rgb[2] = 0;
+  writeColor();
+  delay(500);
+  
+  //BLUE
+  rgb[0] = 0;
+  rgb[1] = 0;
+  rgb[2] = 255;
+  writeColor();
+  delay(500);
+  
+  //WHITE
   rgb[0] = 255;
   rgb[1] = 255;
   rgb[2] = 255;
+  writeColor();
 }
 
 /**************************************************************************/

@@ -11,12 +11,7 @@ Follow these [instructions](http://www.instructables.com/id/Control-LED-light-co
 
 Analog RGB LED strips
 -----------
-Follow these [instructions](https://learn.adafruit.com/rgb-led-strips/overview) to connect an analog RGB LED strip to your Arduino controller.
-
-
-Bluetooth LE
------------
-Follow these [instructions](https://learn.adafruit.com/getting-started-with-the-nrf8001-bluefruit-le-breakout/introduction) to connect a Bluetooth LE breakout board to your Arduino controller.
+Follow these [instructions](http://www.instructables.com/id/Control-a-LED-light-strips-color-via-an-Arduino-an/) to connect an analog RGB LED strip and a Bluetooth low energy board to an Arduino controller.
 
 
 LightShow iOS App

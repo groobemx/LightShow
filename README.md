@@ -21,3 +21,6 @@ Place the Adafruit_BLE_UART folder from this repository inside your Arduino libr
 Upload the LightShowArduino.ino sketch to your Arduino.
 
 Install the [LightShow](https://itunes.apple.com/us/app/light-show-control-your-arduinos/id955092313?mt=8) app onto your iOS device.
+
+
+Check out my blog at [kitefaster.com](http://kitefaster.com)

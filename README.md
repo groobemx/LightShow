@@ -6,7 +6,7 @@ This Arduino sketch can be used to control LEDs over Bluetooth LE.  It is design
 
 Analog RGB LED strips
 -----------
-Follow these [instructions](http://www.instructables.com/id/Control-a-LED-light-strips-color-via-an-Arduino-an/) to connect an analog RGB LED strip and a Bluetooth low energy board to an Arduino controller.
+Follow these [instructions](http://kitefaster.com/2016/02/17/create-your-own-led-light-show-with-an-arduino-and-an-iphone/?utm_source=github&utm_medium=link&utm_campaign=cross) to connect an analog RGB LED strip and a Bluetooth low energy board to an Arduino controller.
 
 
 Common Cathode RGB LED

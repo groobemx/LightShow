@@ -23,4 +23,8 @@ Upload the LightShowArduino.ino sketch to your Arduino.
 Install the [LightShow](https://itunes.apple.com/us/app/apple-store/id955092313?pt=117264536&ct=github&mt=8) app onto your iOS device.
 
 
-Check out my blog at [kitefaster.com](http://kitefaster.com/?utm_source=github&utm_medium=link&utm_campaign=cross)
+
+-----------
+Download my newest app [White Noise and Deep Sleep Sounds](https://itunes.apple.com/app/deep-sleep-sounds-free-white/id1083248251?mt=8&at=1000lc6i&pt=117264536&ct=lightShow) from the App Store and enjoy better sleep.  
+
+Check out my blog at [kitefaster.com](http://kitefaster.com/?utm_source=github&utm_medium=link&utm_campaign=lightShow)
